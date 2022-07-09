@@ -1,6 +1,6 @@
 A simple, no-frills, seedable random number generator from sha256 hashes.
 
-Written in plain JavaScript. Depends on Node.js Crypo.
+Written in plain JavaScript. Depends on Node.js Crypto.
 
 ## Installation
 
