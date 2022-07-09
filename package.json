@@ -1,0 +1,25 @@
+{
+  "name": "seedable",
+  "version": "1.0.0",
+  "description": "A simple, no-frills, seedable random number generator from sha256 hashes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "seed",
+    "seedable",
+    "rng",
+    "random",
+    "number",
+    "generator",
+    "sha256",
+    "hash"
+  ],
+  "author": "James Abney",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jabney/seedable.git"
+  }
+}
