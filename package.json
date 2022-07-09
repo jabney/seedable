@@ -1,6 +1,6 @@
 {
   "name": "seedable",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple, no-frills, seedable random number generator from sha256 hashes",
   "main": "index.js",
   "scripts": {
