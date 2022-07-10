@@ -11,10 +11,7 @@ const createRng = (seed = 0, offset = 0) => {
 
   let count = offset;
 
-  /**
-   * @param {number|string} seed
-   */
-  const createHash = (seed) => {
+  const createHash = () => {
     const hash = crypto.createHash("sha256");
     hash.update(seed.toString());
     return hash;
@@ -30,7 +27,7 @@ const createRng = (seed = 0, offset = 0) => {
 
   const randomFloat = () => {
     count = (count % Number.MAX_SAFE_INTEGER) + 1;
-    const hash = createHash(seed);
+    const hash = createHash();
     hash.update(count.toString());
     return getInt(hash) / maxInt;
   };
